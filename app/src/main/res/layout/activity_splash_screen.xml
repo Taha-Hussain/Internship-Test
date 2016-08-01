@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.intellisenseglobal.internshiptest.splash_screen"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:id="@+id/splash_screen_linearLayout">
+
+    <ImageView
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intellisense_logo"/>
+    <TextView
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taha Hussain"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TahaHussain94@outlook.com"
+        android:textStyle="italic"
+        android:textSize="17dp"/>
+
+
+</LinearLayout>
